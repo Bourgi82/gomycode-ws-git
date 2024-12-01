@@ -1,0 +1,46 @@
+*{
+    font-family: "Pacifico", cursive;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    color: blue;
+}
+.titre2 {
+    color: red;
+}
+#titre3 {
+    color: aqua;
+}
+div ol li p {
+    text-decoration: none;
+    color: yellow;
+}
+h1 {
+    color: brown;
+}
+.item1 {
+    color: orange;
+}
+#item2 {
+    color: aquamarine
+}
+h1 {
+    color: greenyellow;
+}
+.form{
+    background-color: #74992e;
+}
+.img{
+    color: blue;
+}
+.video{
+    color: fuchsia;
+}

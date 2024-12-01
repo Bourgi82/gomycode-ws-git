@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Projet1 HTML</title>
-        <meta charset="utf-8" />
-    </head>
-    <body>
+
+<head>
+    <title>Projet1 HTML</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="text.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
         <nav>
-        <header>
             <h1>Projet1 HTML</h1>
             <ul>
                 <li>
@@ -17,16 +23,12 @@
                 </li>
             </ul>
         </nav>
-        <!--carousel-->
-        <div>
-
-        </div>
-        </header>
-        <!--titre de niveau 1-->
-        <h1>Titre de niveau 1</h1>
-        <!--unordered list = liste non ordonnée-->
-        <div>
-        <h2>Liste non ordonnée</h2>
+    </header>
+    <!--titre de niveau 1-->
+    <h1 class="Projet1">Titre de niveau 1</h1>
+    <!--unordered list = liste non ordonnée-->
+    <div>
+        <h2 class="item1">Liste non ordonnée</h2>
         <ul>
             <li>
                 <p>Premier item</p>
@@ -39,7 +41,7 @@
             </li>
         </ul>
     </div>
-    <div> 
+    <div>
         <!--ordered list = liste ordonnée-->
         <h2>Liste ordonnée</h2>
         <ol>
@@ -54,60 +56,61 @@
             </li>
         </ol>
     </div>
-        <!--tableau-->
-        <h2>Tableau</h2>
-        <table>
-            <tr>
-                <th>Home</th>
-                <th>About</th>
-                <th>Work</th>
-                <th>Resume</th>
-                <th>Contact</th>
-            </tr>
-            <tr>
-                <td>FANN HOCK</td>
-                <td>MAMADOU ALIOU BAH</td>
-                <td>SONATEL</td>
-                <td>INGENIEUR TELECOMS</td>
-                <td>789931265</td>
-            </tr>
-        </table>
-        <!--formulaire-->
-        <h2>Formulaire</h2>
-        <form>
-            <label for="name">Nom</label>
-            <input type="text" id="name" />
-            <div>
-                <br />
-            </div>
-            <label for="email">Email</label>
-            <input type="email" id="email" />
-            <div>
-                <br />
-            </div>
-            <label for="password">Password</label>
-            <input type="password" id="password" />
-            <div>
-                <br />
-            </div>
-            <button type="submit">Soumettre</button>
-            <button type="submit">Supprime les entrées</button>
-        </form>
-        <!--image-->
-        <h2>Image</h2>
-        <img src="image.jfif" height="100px" width="200px"  alt="mon image" />
-        <!--video-->
-        <h2>Video</h2>
-        <video controls>
-            <source src="video.mp4" type="video/mp4" />
-        </video>
-        <blockquot>
-            <p>sonatel senegal</p>
-            <cite>MAMADOU ALIOU Bah</cite>
-        </blockquot>
-        <footer>
-            Copyright sonatel senegal 2024
-            Powered by sonatel
-        </footer>
-    </body>
+    <!--tableau-->
+    <h2>Tableau</h2>
+    <table>
+        <tr>
+            <th>Home</th>
+            <th>About</th>
+            <th>Work</th>
+            <th>Resume</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>FANN HOCK</td>
+            <td>MAMADOU ALIOU BAH</td>
+            <td>SONATEL</td>
+            <td>INGENIEUR TELECOMS</td>
+            <td>789931265</td>
+        </tr>
+    </table>
+    <!--formulaire-->
+    <h2>Formulaire</h2>
+    <form class="form">
+        <label for="name">Nom</label>
+        <input type="text" id="name" />
+        <div>
+            <br />
+        </div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <div>
+            <br />
+        </div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <div>
+            <br />
+        </div>
+        <button type="submit">Soumettre</button>
+        <button type="submit">Supprime les entrées</button>
+    </form>
+    <!--image-->
+    <h2 class="img">Image</h2>
+    <img src="image.jfif" height="100px" width="200px" alt="mon image" />
+    <!--video-->
+    <h2 class="video">Video</h2>
+    <video controls>
+        <source src="video.mp4" type="video/mp4" />
+    </video>
+    <blockquot>
+        <p>sonatel senegal</p>
+        <cite>MAMADOU ALIOU Bah</cite>
+    </blockquot>
+    <footer>
+        Copyright sonatel senegal 2024
+        Powered by sonatel
+    </footer>
+</body>
+
 </html>
